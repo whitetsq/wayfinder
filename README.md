@@ -39,10 +39,16 @@
 │  ├─ wayfinder-mark.svg
 │  └─ wayfinder-logo.svg
 └─ data/
-   ├─ sites.json
+   ├─ sites/
+   │  ├─ 01.json
+   │  ├─ 02.json
+   │  ├─ ...
+   │  └─ 08.json
    ├─ sections.json
    └─ collections.json
 ```
+
+站点目录拆成 8 个 JSON 分片，由前端并行读取并合并；目前共收录 123 个来源。
 
 ## 本地预览
 
