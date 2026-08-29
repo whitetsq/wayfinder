@@ -1,0 +1,191 @@
+[
+  {
+    "id": "replace_scroll",
+    "name": "替代刷屏",
+    "subtitle": "5–15 分钟也能得到点东西",
+    "sites": [
+      "atlasobscura",
+      "smithsonian",
+      "jstordaily",
+      "kottke",
+      "conversation",
+      "guokr",
+      "sspai",
+      "tedium"
+    ]
+  },
+  {
+    "id": "weekend_long",
+    "name": "周末长读",
+    "subtitle": "一篇读到底，不追更新",
+    "sites": [
+      "longreads",
+      "sundaylongread",
+      "atavist",
+      "newyorker",
+      "guardianlong",
+      "aeon",
+      "harpers",
+      "placesjournal",
+      "mekongreview"
+    ]
+  },
+  {
+    "id": "curated_web",
+    "name": "人工策展互联网",
+    "subtitle": "让别人替你先筛一遍",
+    "sites": [
+      "aldaily",
+      "3qd",
+      "electric",
+      "browser",
+      "marginalian",
+      "longnow",
+      "openculture"
+    ]
+  },
+  {
+    "id": "world_outside",
+    "name": "跳出单一世界",
+    "subtitle": "别只从中美欧中心看世界",
+    "sites": [
+      "restofworld",
+      "dial",
+      "pari",
+      "initium",
+      "twreporter",
+      "jadaliyya",
+      "himal",
+      "mekongreview",
+      "africasacountry",
+      "continent",
+      "dialogueearth"
+    ]
+  },
+  {
+    "id": "verify_big_claim",
+    "name": "宏大叙事先核验",
+    "subtitle": "观点之前先看数据与证据",
+    "sites": [
+      "owid",
+      "fred",
+      "bis",
+      "acled",
+      "worldbank",
+      "imf",
+      "pew",
+      "bellingcat"
+    ]
+  },
+  {
+    "id": "science_serious",
+    "name": "科学但不傻瓜化",
+    "subtitle": "解释共识、争议与不确定性",
+    "sites": [
+      "quanta",
+      "knowable",
+      "undark",
+      "nautilus",
+      "zhishifenzi",
+      "sciencenet"
+    ]
+  },
+  {
+    "id": "zh_deep",
+    "name": "中文深读",
+    "subtitle": "少一点热搜，多一点现场与上下文",
+    "sites": [
+      "caixin",
+      "lifeweek",
+      "infzm",
+      "latepost",
+      "initium",
+      "twreporter",
+      "zhengmian"
+    ]
+  },
+  {
+    "id": "engineer_reading",
+    "name": "工程师的技术阅读",
+    "subtitle": "从系统原理到真实工程经验",
+    "sites": [
+      "hn",
+      "lobsters",
+      "jvns",
+      "simonwillison",
+      "fabiensanglard",
+      "chipsandcheese",
+      "ieeespectrum"
+    ]
+  },
+  {
+    "id": "city_systems",
+    "name": "城市怎样运转",
+    "subtitle": "建筑、交通、基础设施与空间政治",
+    "sites": [
+      "placesjournal",
+      "failedarchitecture",
+      "humantransit",
+      "worksinprogress",
+      "dialogueearth",
+      "liberresearch"
+    ]
+  },
+  {
+    "id": "indie_discovery",
+    "name": "逃离 SEO 搜索",
+    "subtitle": "先找人写的网页，不先看谁买了排名",
+    "sites": [
+      "marginaliasearch",
+      "oohdirectory",
+      "tedium",
+      "kottke",
+      "hn"
+    ]
+  },
+  {
+    "id": "open_knowledge_corpus",
+    "name": "开放知识与语料",
+    "subtitle": "原文、论文、数据和可复用语料",
+    "sites": [
+      "ctext",
+      "openalex",
+      "doaj",
+      "taicorpus",
+      "owid",
+      "worldbank"
+    ]
+  },
+  {
+    "id": "sinophone_public_knowledge",
+    "name": "华语公共知识",
+    "subtitle": "研究、田野、法庭与民间数据",
+    "sites": [
+      "researchsinica",
+      "whogovernstw",
+      "guavanthropology",
+      "liberresearch",
+      "thewitnesshk",
+      "inmediahk",
+      "cdt",
+      "zhishifenzi",
+      "twreporter"
+    ]
+  },
+  {
+    "id": "local_accountability",
+    "name": "从当地看权力",
+    "subtitle": "让当地记者追政府、企业与制度",
+    "sites": [
+      "prachatai",
+      "madamasr",
+      "7iber",
+      "elfaro",
+      "apublica",
+      "ciper",
+      "ojopublico",
+      "groundup",
+      "amabhungane"
+    ]
+  }
+]
