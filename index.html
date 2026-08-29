@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="知径 Wayfinder：人工策展的信息导航，让互联网更像图书馆。">
+  <title>知径 · Wayfinder</title>
+  <link rel="icon" href="assets/wayfinder-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div><strong>知径</strong><span>WAYFINDER</span></div>
+    </div>
+    <p class="brand-copy">不是更多信息，而是更好的入口。</p>
+    <nav id="sectionNav" class="section-nav"></nav>
+    <div class="sidebar-foot">
+      <div class="review-chip"><span class="dot"></span>目录审阅：2026-08-29</div>
+      <button id="themeBtn" class="text-btn">切换主题</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="search-box">
+        <span>⌕</span>
+        <input id="search" placeholder="搜索站点、主题、地区、用途…">
+        <kbd>/</kbd>
+      </div>
+      <div class="top-actions">
+        <select id="langFilter">
+          <option value="全部">全部语言</option>
+          <option value="中文">中文</option>
+          <option value="EN">English</option>
+        </select>
+        <select id="accessFilter">
+          <option value="全部">全部访问</option>
+          <option value="免费">优先免费</option>
+          <option value="付费">含付费</option>
+        </select>
+        <button id="favOnly" class="btn">★ 收藏</button>
+      </div>
+    </header>
+
+    <section class="intro">
+      <div>
+        <div class="kicker">CURATED, NOT FED</div>
+        <h1>让互联网更像图书馆。</h1>
+        <p>人工策展、明确分类、透明备注、定期复查。这里不做无限信息流，也不追热点排名。</p>
+      </div>
+      <div class="manifesto">
+        <div><b>01</b><span>高信噪比</span><small>内容是否值得占用注意力</small></div>
+        <div><b>02</b><span>视角差异</span><small>不要只活在同一种世界观里</small></div>
+        <div><b>03</b><span>可维护</span><small>失活、改版、付费墙都要复查</small></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <div><span>EDITOR'S SHELVES</span><h2>编辑书架</h2></div>
+        <button id="randomBtn" class="btn secondary">随机逛一个 ↗</button>
+      </div>
+      <div id="collectionGrid" class="collection-grid"></div>
+    </section>
+
+    <section class="catalog-section">
+      <div class="section-title">
+        <div><span>CATALOG</span><h2 id="catalogTitle">全部站点</h2></div>
+        <div id="catalogCount" class="count"></div>
+      </div>
+      <div id="activeFilters" class="active-filters"></div>
+      <div id="siteGrid" class="site-grid"></div>
+    </section>
+  </main>
+</div>
+
+<dialog id="detailDialog">
+  <button id="closeDialog" class="dialog-close">×</button>
+  <div id="dialogContent"></div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
