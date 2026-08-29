@@ -123,8 +123,9 @@ function initEvents(){
   $('#closeDialog').onclick=()=>$('#detailDialog').close();
   document.addEventListener('keydown',e=>{if(e.key==='/' && document.activeElement.tagName!=='INPUT'){e.preventDefault();$('#search').focus();}});
 }
+const SITE_SHARDS = Array.from({length:8}, (_,i)=>`data/sites/${String(i+1).padStart(2,'0')}.json`);
 Promise.all([
-  fetch('data/sites.json').then(r=>r.json()),
+  Promise.all(SITE_SHARDS.map(path=>fetch(path).then(r=>r.json()))).then(parts=>parts.flat()),
   fetch('data/collections.json').then(r=>r.json()),
   fetch('data/sections.json').then(r=>r.json())
 ]).then(([sites,collections,sections])=>{
